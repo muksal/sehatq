@@ -1,0 +1,36 @@
+{
+  "name": "cypress-cucumber-example",
+  "version": "1.0.0",
+  "description": "Example of cypress with cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "open": "./node_modules/.bin/cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheBrainFamily/cypress-cucumber-example.git"
+  },
+  "keywords": [
+    "cypress",
+    "cucumber",
+    "testing"
+  ],
+  "author": "Lukasz Gandecki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheBrainFamily/cypress-cucumber-example/issues"
+  },
+  "homepage": "https://github.com/TheBrainFamily/cypress-cucumber-example#readme",
+  "dependencies": {
+    "cucumber": "^5.0.3",
+    "cypress-cucumber-preprocessor": "1.7.0",
+    "eslint": "^5.10.0",
+    "percy": "^3.0.3"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "cypress": "^3.2.0",
+    "cypress-plugin-tab": "^1.0.5"
+  }
+}
